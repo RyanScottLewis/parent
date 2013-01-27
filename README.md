@@ -70,7 +70,7 @@ p group.people  # => [ #<User:0x12eba98 @name="John Doe"> ]
 
 ### Customizing
 
-After an object is defined as as `Parent`, the way methods/instance variables are named, how the collection object is instantiated,
+After an object is defined as a `Parent`, the way methods/instance variables are named, how the collection object is instantiated,
 and how a child is retrieved from it's collection can all be customized both globally throughout all instances/subclasses of the `Parent`
 class and locally for each defined child.
 
@@ -78,7 +78,7 @@ class and locally for each defined child.
 
 ##### Globally
 
-> FILE: examples/change_add_method_name_globally.rb
+> File: examples/change_add_method_name_globally.rb
 
 Override the `child_add_method_name` class method to customize how the "add methods" are named for all child collections:
 
@@ -123,7 +123,7 @@ end
 
 group = Group.new
 group.create_user 'John Doe'
-group.add_element 'My Element
+group.add_element 'My Element'
 
 p group.users  # => [ #<User:0x12eba98 @name="John Doe"> ]
 ```
