@@ -78,9 +78,9 @@ class and locally for each defined child.
 
 ##### Globally
 
-> File: examples/change_add_method_name_globally.rb
-
 Override the `child_add_method_name` class method to customize how the "add methods" are named for all child collections:
+
+> File: examples/change_add_method_name_globally.rb
 
 ```ruby
 require 'parent'

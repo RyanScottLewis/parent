@@ -11,6 +11,8 @@ class Group < Parent
   def_child User
 end
 
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
 group = Group.new
 group.add_user name: 'John Doe', age: 30
 

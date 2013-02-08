@@ -13,6 +13,8 @@ class Group < Parent
   def_child Element
 end
 
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
 group = Group.new
 group.create_user 'John Doe'      # Notice how both the 'user' and 'element'
 group.create_element 'My Element' # child collections now use the 'create_' helper

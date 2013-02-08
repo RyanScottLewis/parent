@@ -19,6 +19,8 @@ class Container
   def_child :resource, class: SomeLibrary::Resource
 end
 
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
 c1 = Container.new
 
 p c1.entities  # => []

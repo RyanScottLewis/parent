@@ -23,6 +23,8 @@ class Container
   end
 end
 
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
 container = Container.new
 container.add_entity 'my first entity'
 
